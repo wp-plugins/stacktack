@@ -3,7 +3,7 @@ Contributors: george_edison
 Tags: editor, widget, question
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: trunk
+Stable tag: 1.1
 
 StackTack is a JavaScript widget that displays questions from Stack Exchange sites.
 
