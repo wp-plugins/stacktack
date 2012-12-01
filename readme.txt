@@ -2,18 +2,14 @@
 Contributors: george_edison
 Tags: editor, widget, question
 Requires at least: 3.3
-Tested up to: 3.3
-Stable tag: 1.2
+Tested up to: 3.4.2
+Stable tag: 1.2.1
 
 StackTack is a JavaScript widget that displays questions from Stack Exchange sites.
 
 == Description ==
 
-If you've written a question or answer on any Stack Exchange site and you would like to share it with your readers, you are no longer limited to pasting a static link. Instead, StackTack will embed a live widget with the contents of the question and the top voted answer.
-
-The primary benefit of using StackTack is that your question / answer is always guaranteed to be up to date. Your users will see any changes that have been made to the original post, saving you from continuously updating your article.
-
-The widget itself is quite customizable as well. Options are provided for displaying certain answers or hiding particular parts of the widget. These options can be specified globally and overridden on a per-instance basis.
+If you've written a question or answer on any Stack Exchange site and you would like to share it with your readers, you are no longer limited to pasting a static link. Instead, StackTack will embed a live widget with the contents of the question and some of the top rated answers.
 
 == Installation ==
 
@@ -37,6 +33,10 @@ Yes, the widget can be embedded multiple times on the same page.
 2. An instance of StackTack in a post.
 
 == Changelog ==
+
+= 1.2.1 =
+* Fixed bug that prevented requests to the API from using HTTPS
+* Added a paragraph to the global settings page
 
 = 1.2 =
 * Moved the JS and CSS for the dialog to separate files
